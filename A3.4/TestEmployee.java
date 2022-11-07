@@ -16,9 +16,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class TestEmployee {
-
   public static void main(String[] args) {
-
     // This creates a multiple input field for JOptionPane
     // https://stackoverflow.com/questions/6555040/multiple-input-in-joptionpane-showinputdialog
     JPanel panel = new JPanel();
@@ -75,7 +73,6 @@ public class TestEmployee {
       System.out.printf(
         "ID: %d\nName: %s, %s\nEmail: %s\nSalary: %.2f\n\n",
         employee.getID(), employee.getLastname(), employee.getFirstname(), employee.getEmail(), employee.getSalary());
-
     }
 
     // Initialize for other 4 Employee objects
@@ -113,7 +110,5 @@ public class TestEmployee {
 
       employees[i].displayInfo();
     }
-
   }
-
 }
